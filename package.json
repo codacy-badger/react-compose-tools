@@ -1,0 +1,22 @@
+{
+  "name": "react-compose-tools",
+  "version": "0.1.0",
+  "description": "A functional React higher-order component utility library",
+  "author": "Alex Hunt <hello@alexhunt.io>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/huntie/react-compose-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huntie/react-compose-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huntie/react-compose-tools/issues"
+  },
+  "scripts": {
+    "build": ""
+  },
+  "keywords": [
+    "react"
+  ]
+}
