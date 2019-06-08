@@ -18,14 +18,22 @@
   },
   "scripts": {
     "build": "npm run build:typedefs && npm run build:babel",
-    "build:babel": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
-    "build:typedefs": "tsc --emitDeclarationOnly"
+    "build:babel": "babel src --out-dir dist --extensions .ts --source-maps inline",
+    "build:typedefs": "tsc --emitDeclarationOnly",
+    "lint": "eslint --ext .ts  src"
+  },
+  "peerDependencies": {
+    "react": ">=0.14.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-typescript": "^7.3.3",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
     "prettier": "^1.18.2",
     "typescript": "^3.5.1"
   },
