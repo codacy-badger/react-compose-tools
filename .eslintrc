@@ -11,4 +11,13 @@
     "ecmaVersion":  2018,
     "sourceType":  "module"
   },
+  "plugins": [
+    "jest"
+  ],
+  "env": {
+    "jest/globals": true
+  },
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off"
+  }
 }
