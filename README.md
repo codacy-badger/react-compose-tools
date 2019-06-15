@@ -24,17 +24,21 @@ For more, see the API documentation.
 
 - mapProps
 - withProps
-- withPropsOnChange
 - defaultProps
 - renameProp
 - renameProps
+- flattenProp
 - branch
 - renderComponent
 - renderNothing
 - shouldUpdate
 - pure
 - onlyUpdateForKeys
-- flattenProp
+
+### Static property helpers
+
+- setStatic
+- setDisplayName
 
 ### Utilities
 
