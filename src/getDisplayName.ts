@@ -3,7 +3,7 @@ import { ComponentType } from 'react';
 /**
  * Return the display name of a React component. Falls back to 'Component'.
  */
-const getDisplayName = (Component: ComponentType<any> | string) => {
+const getDisplayName = (Component: ComponentType<unknown> | string) => {
   if (typeof Component === 'string') {
     return Component;
   }
